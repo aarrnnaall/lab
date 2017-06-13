@@ -1,0 +1,22 @@
+	char texto[2000];
+	char texto[2000];
+while ((opt = getopt(argc, argv, "a:sp")) ! = -1){
+	
+	switch (opt){
+
+		case 's':
+			sfnd = 1;
+			break;
+		case 'p':
+			pfnd = 1;
+			break;
+
+		case 'a':
+			afnd = 1;
+			break;
+		default: /* '?' */
+			fpintf(stderr, ""Usage: %s [-a nombre_archivo] [-s] eSpecial [])
+
+	}
+
+}

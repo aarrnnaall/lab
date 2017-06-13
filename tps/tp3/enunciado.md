@@ -15,6 +15,7 @@ contar la cantidad de palabras, mientras que el restante deberá contar la canti
 palabras que aparecen de un conjunto dado de palabras. El proceso padre notificará
 con una señal a los hijos, luego de haber cargado el archivo en memoria compartida.
 
+Lista de palabras: Hypertext, protocol, HTTP, MIME, gateway, URL y URI. 
 
 ## Modo de uso
 

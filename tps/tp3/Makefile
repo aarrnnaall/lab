@@ -5,14 +5,14 @@ TARGETS=tp3
 all: $(TARGETS)
 
 format-text:
-	fold -w 80 -s noticia > noticia2
+	fold -w 80 -s noticia.txt > noticia2.txt
 	#fmt -w 80 noticia > noticia2
 
 justify-text:
-	par 80j < noticia2 > noticia
-	rm -fv noticia2
+	par 80j < noticia2.txt > noticia-formatted.txt
+	rm -fv noticia2.txt
 
 clean:
-	rm -f *~ .o $(TARGETS) noticia2
+	rm -f *~ .o $(TARGETS) noticia2.txt
 
 
