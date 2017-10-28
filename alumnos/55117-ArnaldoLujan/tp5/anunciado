@@ -1,0 +1,8 @@
+hacer lo mismo que le tp5 pero con hilos.
+ El tp5 consiste en programar un servidor web.
+ El servidor web tendra que crear un proceso hijo para atender un requerimiento del cliente o sea un proceso por request.
+ El servidor tenga que manejar el metodo GET si el cliente envia un requerimiento con otro metodo el servidor tendra que responder con el error HTTP correspondiente.
+ El servidor web tendra que implementar los siguientes status code de HTTP en las respuestas: 200 , 403 , 404 y 500.
+ El servidor web tiene que manejar los mimetypes para los archivos: jpg , png , gif , pdf , html .Si el formato del archivo es otro tendra que devolver el text/plain por defecto.
+ El servidor web podra probarse con la aplicacion ab (apache benchmark) debera soportar al menos 10000 conexiones y 5 concurrentes 
+		$ab -n 10000 -c 5 http://localhost:8000/index.html
